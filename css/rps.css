@@ -1,0 +1,190 @@
+
+@import url('https://rsms.me/inter/inter.css');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+
+#heading {
+    background-color: black;
+    padding: 30px;
+    color: white;
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#headtext {
+    font-size: 3em;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+#content {
+    max-width: 868px;
+    min-height: 125px;
+    background-color: Gainsboro;
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+
+form {
+    text-align: center;
+    align-items: center;
+}
+
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+#subdiv {
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+h2 {
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+h3 {
+    color: red;
+    font-size: 1em;
+    text-align: center;
+}
+
+ul {
+    padding: 0px;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+#headOptions {
+    vertical-align: middle;
+    text-align: center;
+}
+
+a.nav {
+    padding: 10px;
+    margin-left: 10px;
+    color: silver;
+}
+
+a:hover {
+    border-radius:5px;
+    color: LightSkyBlue;
+}
+
+#scoreboard {
+    margin: 20px auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 300px;
+    font-size: 25px;
+    font-family: Asap, sans-serif;
+}
+
+#inputname {
+    text-align: left;
+}
+
+#compname {
+    text-align: right;
+}
+
+#divOne {
+    padding: 10px;
+    display: inline;
+}
+
+#divTwo {
+    padding: 50px;
+    max-width: 320px;
+    display: inline;
+    text-align: center;
+}
+
+.options {
+    padding: 10px;
+}
+
+.option {
+    margin: 10px;
+    border-radius: 50%;
+    background-color: white;
+    width: 75px;
+    height: 75px;
+    font-size: 25px;
+    border: 2px solid black;
+    opacity: 0.6;
+    text-align: center;
+}
+
+.option:hover {
+    opacity: 1;
+}
+
+table,
+th,
+td {
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+}
+
+table {
+    display: inline;
+}
+
+#helpButton{
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    border: 2px solid dimgray;
+    opacity: 0.6;
+}
+
+#helpButton:hover{
+    opacity: 1;
+}
+
+#replayButton {
+    padding: 10px;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 6px;
+    border: 2px solid dimgray;
+    opacity: 0.6;
+}
+
+#replayButton:hover{
+    opacity: 1;
+}
+
+#playButton {
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
